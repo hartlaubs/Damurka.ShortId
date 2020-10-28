@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Company>Hartlaubs</Company>
+    <Authors>Damurka</Authors>
+  </PropertyGroup>
+
+</Project>
