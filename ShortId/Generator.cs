@@ -21,7 +21,7 @@ namespace Damurka.ShortId
         /// <param name="useNumbers">Whether or not numbers are included in the string.</param>
         /// <param name="useSpecial">Whether or not special characters are included.</param>
         /// <returns></returns>
-        public static string Generate(int size = MinChars, bool useNumbers = true, bool useSpecial = true)
+        public static string Generate(int size = MinChars, bool useNumbers = true, bool useSpecial = false)
         {
             if (size < MinChars)
                 throw new ArgumentException($"The specified length is lower than accepted limit of {MinChars}");
