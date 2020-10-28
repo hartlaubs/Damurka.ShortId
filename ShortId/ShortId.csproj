@@ -5,14 +5,19 @@
     <Company>Hartlaubs</Company>
     <Authors>Damurka</Authors>
     <RepositoryUrl>https://github.com/hartlaubs/ShortId</RepositoryUrl>
-    <RepositoryType>Github</RepositoryType>
+    <RepositoryType>git</RepositoryType>
     <Description>A C# library that can generate random and unique id's</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <AssemblyName>Damurka.ShortId</AssemblyName>
     <RootNamespace>Damurka.ShortId</RootNamespace>
     <Copyright>Copyright 2020</Copyright>
-    <PackageTags>shortid, idgen, id, unique key, nanoid</PackageTags>
-    <PackageProjectUrl>https://github.com/hartlaubs/ShortId/blob/master/LICENSE</PackageProjectUrl>
+    <PackageTags>shortid;idgen;id;unique key;nanoid</PackageTags>
+    <PackageProjectUrl></PackageProjectUrl>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageLicenseExpression>(MIT)</PackageLicenseExpression>
+    <PackageLicenseFile></PackageLicenseFile>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
   </PropertyGroup>
 
 </Project>

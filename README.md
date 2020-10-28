@@ -7,7 +7,7 @@ A C# library that can generate random and unique id's
 
 ## Getting Started
 
-To make use of the `shortid`, add it to your project via the Nuget package manager UI or console via this command:
+To make use of the `ShortId`, add it to your project via the Nuget package manager UI or console via this command:
 
 #### Package Manager
 
@@ -17,26 +17,24 @@ Install-Package Damurka.ShortId
 
 #### .NET CLI
 ```
-> dotnet add package Damurka.ShortId
+dotnet add package Damurka.ShortId
 ```
 
 ## Usage
 
-This gives your code access the classes and methods of the `shortid` namespace.
-
-To generate a unique id of 8 and 15characters, you call the `Generate` method without parameters.
+To generate a unique id of 8 characters, you call the `Generate` method without parameters.
 
 ```csharp
 string id = Generator.Generate();
 ```
 
-If you want to include numbers in the generated id, then you call the `Generate` method with options indicating your preference.
+If you want to specify the size of the generated id.
 
 ```csharp
 string id = Generator.Generate(17);
 ```
 
-If you do want special characters *i.e _ and -* with numbers in your generated id.
+If you do want special characters ( _ and -*)in your generated id.
 
 ```csharp
 string id = Generator.Generate(12, useNumbers: true, useSpecial: true);
