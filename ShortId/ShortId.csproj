@@ -8,6 +8,11 @@
     <RepositoryType>Github</RepositoryType>
     <Description>A C# library that can generate random and unique id's</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyName>Damurka.ShortId</AssemblyName>
+    <RootNamespace>Damurka.ShortId</RootNamespace>
+    <Copyright>Copyright 2020</Copyright>
+    <PackageTags>shortid, idgen, id, unique key, nanoid</PackageTags>
+    <PackageProjectUrl>https://github.com/hartlaubs/ShortId/blob/master/LICENSE</PackageProjectUrl>
   </PropertyGroup>
 
 </Project>

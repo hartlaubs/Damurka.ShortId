@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace ShortId
+namespace Damurka.ShortId
 {
     public static class Generator
     {
