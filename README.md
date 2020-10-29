@@ -2,22 +2,16 @@
 
 # ShortId
 
-## About ShortId
-A C# library that can generate random and unique id's 
+## What is it
+ShortId can used to generate non-sequential unique IDs that are cryptographically secure.
+By default it uses characters A-Za-z0-9 with a length of 8 characters.
 
-## Getting Started
+## Package Manager
 
-To make use of the `ShortId`, add it to your project via the Nuget package manager UI or console via this command:
-
-#### Package Manager
+Install with nuget:
 
 ```
-Install-Package Damurka.ShortId
-```
-
-#### .NET CLI
-```
-dotnet add package Damurka.ShortId
+PM> Install-Package Damurka.ShortId
 ```
 
 ## Usage
@@ -25,17 +19,17 @@ dotnet add package Damurka.ShortId
 To generate a unique id of 8 characters, you call the `Generate` method without parameters.
 
 ```csharp
-string id = Generator.Generate();
+string id = ShortId.Generate();
 ```
 
 If you want to specify the size of the generated id.
 
 ```csharp
-string id = Generator.Generate(17);
+string id = ShortId.Generate(17);
 ```
 
-If you do want special characters ( _ and -*)in your generated id.
+If you do want to specify your custom character and default number of characters
 
 ```csharp
-string id = Generator.Generate(12, useNumbers: true, useSpecial: true);
+string id = ShortId.Generate(allowableCharacters: "abcdefghijkmnpqrstuvwxyz2345678");
 ```

@@ -1,21 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.1;netstandard2.0;net48</TargetFrameworks>
+    <TargetFrameworks>netstandard2.1;netstandard2.0</TargetFrameworks>
     <Company>Hartlaubs</Company>
     <Authors>Damurka</Authors>
     <RepositoryUrl>https://github.com/hartlaubs/ShortId</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Description>A C# library that can generate random and unique id's</Description>
+    <Description>A C# library that can generate cryptographycally secure unique IDs</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <AssemblyName>Damurka.ShortId</AssemblyName>
-    <RootNamespace>Damurka.ShortId</RootNamespace>
+    <RootNamespace>Damurka.Generator</RootNamespace>
     <Copyright>Copyright 2020</Copyright>
     <PackageTags>shortid;idgen;id;unique key;nanoid</PackageTags>
     <PackageProjectUrl></PackageProjectUrl>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <PackageLicenseExpression>(MIT)</PackageLicenseExpression>
-    <Version>1.0.1</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
 </Project>
