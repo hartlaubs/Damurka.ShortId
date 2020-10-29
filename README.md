@@ -3,10 +3,11 @@
 # ShortId
 
 ## What is it
+
 ShortId can used to generate non-sequential unique IDs that are cryptographically secure.
 By default it uses characters A-Za-z0-9 with a length of 8 characters.
 
-## Package Manager
+## Install
 
 Install with nuget:
 
